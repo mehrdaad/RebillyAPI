@@ -14,7 +14,9 @@ get:
         - description: |
             The collection items filter requires a special format.
             Use "," for multiple allowed values.  Use ";" for multiple fields.
-            Use one or more of the listed filter fields. i.e. `is:customer email:bob@test.com`
+            Use one or more of the listed filter fields. i.e. `is:customer email:bob@test.com`.
+            The `date` value can be surrounded with quotes. Examples:
+            `>2019-01-01`, `last month`, `yesterday`, `<=2019-04-30`.
         - schema:
             enum:
               - is
