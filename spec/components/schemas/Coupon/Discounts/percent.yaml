@@ -11,3 +11,6 @@ allOf:
         description: Discount percent
         type: number
         format: double
+        minimum: 0
+        exclusiveMinimum: true
+        maximum: 100
